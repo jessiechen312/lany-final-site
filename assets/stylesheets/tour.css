@@ -11,7 +11,7 @@ ul {
   color: white;
 }
 
-.nav a{
+.nav a {
   float: right;
 }
 
@@ -47,6 +47,16 @@ div.ticket-icon {
 a {
   color: white;
 }
+
+.transbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #000000;
+  background: rgba(0,0,0, .5);
+  }
 
 /* How do I make the ticket icon bigger? */
 .fa fa-ticket {
