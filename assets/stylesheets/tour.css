@@ -30,7 +30,7 @@ table{
 }
 
 h1 {
-  font-size:24px
+  font-size:24px;
 }
 
 div.tour {
@@ -55,7 +55,7 @@ a {
   right: 0;
   left: 0;
   background: #000000;
-  background: rgba(0,0,0, .5);
+  background: rgba(0,0,0,.3);
   }
 
 /* How do I make the ticket icon bigger? */
