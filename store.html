@@ -28,7 +28,7 @@
   <!-- https://www.w3schools.com/howto/howto_js_filter_elements.asp -->
 
   <!-- Control buttons -->
-<div class="myBtnContainer">
+<div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('tees')"> Tees</button>
   <button class="btn" onclick="filterSelection('longsleeves')"> Longsleeves</button>
@@ -40,22 +40,56 @@
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 <div class="container">
   <div class="filterDiv longsleeves">
-    <img class="items" src="./assets/images/store/cest-lany-long-sleeve.png" />
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/cest-lany-long-sleeve.png" />
+      <div class="item-description">
+        <h4>C'EST LANY L/S</h4>
+        <p>$40.00</p>
+      </div>
+    </div>
   </div>
-  <div class="filterDiv accessories">
-    <img class="items" src="./assets/images/store/lany-beanie.png" />
+  <div class="filterDiv hats">
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/lany-beanie.png" />
+        <div class="item-description">
+          <h4>LANY Beanie</h4>
+          <p>$25.00</p>
+        </div>
+    </div>
   </div>
   <div class="filterDiv music">
-    <img class="items" src="./assets/images/store/malibu-nights-vinyl.png" />
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/malibu-nights-vinyl.png" />
+      <div class="item-description">
+        <h4>Malibu Nights Vinyl</h4>
+        <p>$30.00</p>
+      </div>
+    </div>
   </div>
   <div class="filterDiv accessories">
-    <img class="items" src="./assets/images/store/silver-necklace.png" />
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/silver-necklace.png" />
+      <div class="item-description">
+        <h4>Silver Necklace</h4>
+        <p>$20.00</p>
+      </div>
+    </div>
   </div>
   <div class="filterDiv tees">
-    <img class="items" src="./assets/images/store/warped-lany-shirt.png" />
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/warped-lany-shirt.png" />
+      <div class="item-description">
+        <h4>Warped LANY T-shirt</h4>
+        <p>$30.00</p>
+      </div>
+    </div>
   </div>
   <div class="filterDiv longsleeves">
     <img class="items" src="./assets/images/store/world-tour-long-sleeve.png" />
+    <div class="item-description">
+      <h4>World Tour L/S</h4>
+      <p>$45.00</p>
+    </div>
   </div>
 </div>
 
