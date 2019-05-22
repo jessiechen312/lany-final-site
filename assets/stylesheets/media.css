@@ -1,0 +1,28 @@
+.photo-container {
+  width: 275px;
+  height: 275px;
+  position: relative;
+  /* margin-bottom: 25px; */
+  text-align: center;
+  display: inline-block;
+}
+
+.gallery img {
+  width: 275px;
+  height: auto;
+  padding: 10px;
+}
+
+.gallery {
+  width: 100%;
+  margin: 50px;
+}
+
+.video-block {
+  margin: 50px;
+}
+
+.video-container {
+  padding: 10px;
+  display: inline-block;
+}
