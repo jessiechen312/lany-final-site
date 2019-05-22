@@ -61,5 +61,11 @@ img.items {
 }
 
 .item-box {
+  width: auto;
   color: black;
+}
+
+.item-description{
+  position: relative;
+  bottom: 0px;
 }
