@@ -14,16 +14,16 @@
   z-index: auto;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 body{
   background-image: url(../images/lany-background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size:cover;
-}
-
-.header {
-  position: absolute;
-  top: 0;
-  right: 0;
 }
