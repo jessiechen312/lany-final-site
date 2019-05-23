@@ -61,7 +61,9 @@
     <div class="item-box">
       <img class="items" src="./assets/images/store/malibu-nights-vinyl.png" />
       <div class="item-description">
+        <div class="vinyl">
         <h4>Malibu Nights Vinyl</h4>
+        </div>
         <p>$30.00</p>
       </div>
     </div>
@@ -85,10 +87,12 @@
     </div>
   </div>
   <div class="filterDiv longsleeves">
-    <img class="items" src="./assets/images/store/world-tour-long-sleeve.png" />
-    <div class="item-description">
-      <h4>World Tour L/S</h4>
-      <p>$45.00</p>
+    <div class="item-box">
+      <img class="items" src="./assets/images/store/world-tour-long-sleeve.png" />
+      <div class="item-description">
+        <h4>World Tour L/S</h4>
+        <p>$45.00</p>
+      </div>
     </div>
   </div>
 </div>
@@ -105,7 +109,6 @@
       if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
     }
   }
-
   // Show filtered elements
   function w3AddClass(element, name) {
     var i, arr1, arr2;
@@ -117,7 +120,6 @@
       }
     }
   }
-
   // Hide elements that are not selected
   function w3RemoveClass(element, name) {
     var i, arr1, arr2;
@@ -130,7 +132,6 @@
     }
     element.className = arr1.join(" ");
   }
-
   // Add active class to the current control button (highlight it)
   var btnContainer = document.getElementById("myBtnContainer");
   var btns = btnContainer.getElementsByClassName("btn");

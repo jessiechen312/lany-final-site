@@ -11,3 +11,13 @@ img.band-photo {
   top: 110px;
   left: 150px;
 }
+
+ul.band-members{
+  list-style-type: circle;
+  list-style-position: inside;
+  line-spacing: 10px;
+}
+
+ul.band-members li {
+  margin: 10px 0;
+}

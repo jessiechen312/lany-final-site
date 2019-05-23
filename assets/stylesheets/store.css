@@ -1,5 +1,6 @@
 .container {
   overflow: hidden;
+  padding-top: 20px;
   width: auto;
 }
 
@@ -7,6 +8,7 @@
   margin: 0 auto;
   width: 300px;
   float: left;
+  padding-top: 40px;
   padding-left: 60px;
 }
 
@@ -68,4 +70,8 @@ img.items {
 .item-description{
   position: relative;
   bottom: 0px;
+}
+
+.vinyl {
+  padding-top: 20px;
 }

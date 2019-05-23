@@ -1,9 +1,13 @@
 .lany-album, .malibu-nights, .make-out {
   display: flex;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  padding: 50px;
 }
 
 .imgBx {
   padding-right: 50px;
+  padding-left: 80px;
+}
+
+.music {
+  text-align: center;
 }
